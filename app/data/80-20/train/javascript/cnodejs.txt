@@ -1,0 +1,60 @@
+Nodeclub
+=
+
+[![build status][travis-image]][travis-url]
+[![codecov.io][codecov-image]][codecov-url]
+[![David deps][david-image]][david-url]
+[![node version][node-image]][node-url]
+
+[travis-image]: https://img.shields.io/travis/cnodejs/nodeclub/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/cnodejs/nodeclub
+[codecov-image]: https://img.shields.io/codecov/c/github/cnodejs/nodeclub/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/cnodejs/nodeclub?branch=master
+[david-image]: https://img.shields.io/david/cnodejs/nodeclub.svg?style=flat-square
+[david-url]: https://david-dm.org/cnodejs/nodeclub
+[node-image]: https://img.shields.io/badge/node.js-%3E=_4.2-green.svg?style=flat-square
+[node-url]: http://nodejs.org/download/
+
+## ??
+
+Nodeclub ??? **Node.js** ? **MongoDB** ???????????????????????
+??Node.js ?????? [CNode(http://cnodejs.org)](http://cnodejs.org) ?????????????????????
+
+## ????
+
+*??? Windows ??????*
+
+????? [Node.js](https://nodejs.org) v4.4.0?[MongoDB](https://www.mongodb.org) ? v3.0.5?[Redis](http://redis.io) ? v3.0.3?
+
+```
+1. ?? `Node.js/io.js[??]` `MongoDB[??]` `Redis[??]`
+2. ?? MongoDB ? Redis
+3. `$ make install` ?? Nodeclub ????
+4. `cp config.default.js config.js` ???????????
+5. `$ make test` ?????????
+6. `$ node app.js`
+7. visit `http://localhost:3000`
+8. done!
+```
+
+## ??
+
+???
+
+```bash
+$ make test
+```
+
+??????
+
+```bash
+$ make test-cov
+```
+
+## ??
+
+???????????? issue??????? [@alsotang](https://github.com/alsotang)
+
+## License
+
+MIT
